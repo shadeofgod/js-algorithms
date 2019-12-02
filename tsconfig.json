@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true,
+    "noEmit": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  }
+}
