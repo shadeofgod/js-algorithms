@@ -1,3 +1,8 @@
+/**
+ * time complexity O(log n)
+ * @param array {number[]}
+ * @param target {number}
+ */
 export function binarySearch(array: number[], target: number) {
   let start = 0;
   let end = array.length - 1;
@@ -12,7 +17,7 @@ export function binarySearch(array: number[], target: number) {
     } else if (guess > target) {
       end = mid - 1;
     } else if (guess < target) {
-      start = mid + 1
+      start = mid + 1;
     }
   }
 
